@@ -1,0 +1,11 @@
+Curso da DIO
+Objetivo da Aula:
+proporcionar ao aluno o entendimento do que é Collection Framework e a aplicabilidade
+de suas principais interfaces:
+-coleções com iterações ordenadas: List;
+-coleções com singularidade: Set;
+-coleções de pares: Map;
+-*stream API;
+E também um pouco sobre Stream API e como ela pode nos ajudar na manipulação das
+collections.
+Professora Camila Cavalcante.

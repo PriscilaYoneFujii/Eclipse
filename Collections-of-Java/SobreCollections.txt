@@ -1,0 +1,35 @@
+Collection:
+Um objrto que possui a capacidade de agrupar diversos
+objetos de outros tipos, podendo ser primitivos ou
+compostos. O objrto do tipo collection é constituído
+por índices e elementos. Serve para armazenar e
+processar conjunto de dados de forma eficiente. Antes
+do java2(JDK 1.2), a implementação de coleções na
+linguagem java incluía poucas classes e não tinha a
+organização de um framework.
+Collection{
+    -Array: ou popurarmente conhecido como vetor, no java um
+array tem seu tamanho fixo no momento de sua declaração e não
+é permitido sua alteração no meio do código. Outra desvantagem
+é a questão da exclusão de um dos elementos, sendo o elemento
+só pode ser encontrado de duas formas, linha índice por índice
+comparando o valor ou outros tipos de busca como aleatória,
+retro, bolha etc. Além de tudo só pode conter um tipo de valor,
+se declarado como int[] seus elementos serão todos do tipo int.
+Mas tem uma praticidade que permite saber o tamanho total do
+vetor/array, esta é a função .lenght();
+    -List: é uma das interfaces de collection framework, permite
+elementos duplicados e a contagem individual dos mesmos, elementos
+nulos são adimitidos e, assim como em arrays só podem ser declarados
+como sendo de um único tipo;
+}
+Composição de colections:
+-Interfaces - Contrato no qual uma classe é obrigada a implimentar.
+-Implementação / Classes - materializações, a codificação das
+interfaces.
+-Exercícios.....
+    Estudar mais sobre a composição das collections:
+    -Interfaces
+    -Implementações
+    -Algoritmos
+    Analisar a hierarquia do Collection framework
